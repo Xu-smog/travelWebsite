@@ -1,0 +1,219 @@
+/*搜索区域*/
+#main-div{
+	margin: 0 auto;
+	font-family: 微软雅黑;
+	width: 1200px;
+	overflow:hidden;
+}
+.search1 {
+	width: 100%;
+	height: 460px;
+	background: url(../img/1.png) no-repeat center;
+	position: relative;
+}
+
+.search1 h2 {
+	display: none;
+}
+
+/*.search1 .search2{
+    width: 600px;
+    height: 60px;
+    background-color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -30px;
+    border-radius: 8px;
+    opacity: 0.7;
+}*/
+.search1 .search3 {
+	width: 500px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -300px;
+	margin-top: -30px;
+	border-radius: 8px;
+}
+
+.search1 .search3 input {
+	width: 400px;
+	height: 35px;
+	border: none;
+	border-radius: 8px;
+	margin: 5px 0 5px 5px;
+	padding: 0 5px 0 5px;
+	font-size: 22px;
+	line-height: 35px;
+}
+
+.search1 button {
+	width: 60px;
+	height: 35px;
+	border: none;
+	border-radius: 8px;
+	float: right;
+	margin: 5px 8px 5px 0;
+	font-size: 22px;
+	line-height: 35px;
+	cursor: pointer;
+}
+
+.search1 button:hover {
+	background-color: #C6C6C6;
+}
+
+.search3 {
+	margin: 0 auto;
+}
+
+a:link,a:active {
+	text-decoration: none;
+	color: black;
+}
+
+#margin {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.pic {
+	width: 180px;
+	height: 180px;
+	border-width: 2px;
+}
+
+.a-link {
+	font-size: 15px;
+}
+
+.des-t {
+	height: 400px;
+	width: 280px;
+	position: relative;
+	left: 15px;
+}
+
+.des-r {
+	height: 40px;
+}
+
+.bottom-font {
+	font-size: 15px;
+	color: #a0a0a0;
+	letter-spacing: 5px;
+	line-height: 1.5;
+	position: relative;
+}
+
+.list-group-item {
+	hight: 45px;
+}
+
+.top7 {
+	margin-left: 15px;
+	font-size: 26px;
+}
+
+.top10 {
+	font-size: 16px;
+}
+
+.lunbotu {
+	height: 496px;
+}
+
+.ma {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+#ma-left {
+	margin: 0 auto;
+	width: 730px;
+	display: inline-block;
+}
+
+#ma-right {
+	margin: 0 auto;
+	width: 400px;
+	float: right;
+	display: inline-block;
+}
+
+.content>div.img_container {
+	position: relative;
+	padding: 0;
+	width: 340;
+	height: 200px;
+}
+
+.content>div.img_container1 {
+	position: relative;
+	padding: 0;
+	width: 340;
+	height: 410px;
+}
+
+.img_container img {
+	width: 340px;
+	height: 200px;
+	border-radius: 4px;
+}
+
+.mask {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	width: 340px;
+	background: rgba(0, 0, 0, 0.7);
+	color: #f5f1e5;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	display: none;
+}
+
+.a-img {
+	margin: 3px 12px 0 -40px;
+}
+
+.a-name {
+	display: inline-block;
+	margin-top: 3px;
+	color: #999;
+}
+
+.action {
+	padding: 0px 5px;
+	color: #999;
+}
+
+.user-ing {
+	padding: 10px 8px 18px 0px;
+	border-bottom: 1px solid #ececec;
+}
+
+.user-ing ul li h6 {
+	margin: 5px 0 15px 15px;
+	padding: 0;
+
+}
+
+.user-ing ul {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.user-ing ul li {
+	margin-bottom: 22px;
+	clear: both;
+	overflow: hidden;
+	text-align: left;
+	border-bottom: 1px solid #eee;
+	padding-left: 40px;
+}

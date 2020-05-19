@@ -1,0 +1,413 @@
+#main-div{
+	margin: 0 auto;
+	font-family: 微软雅黑;
+	width: 1200px;
+	overflow:hidden;
+}
+
+.top7{
+margin-left: 15px;
+font-size: 26px;
+}
+.top10
+{
+font-size: 16px;
+padding-top:14px;
+
+}
+.lunbotu
+{
+height: 496px;
+
+}
+.theme-top
+{
+	height: 544px;
+}
+.theme-lunbo
+{
+	height:50%;
+}
+.theme-left
+{
+	padding-left: 9rem;
+	position: relative;
+	float: left;width: 390px;
+	height: 544px;
+	
+}
+.theme-left p
+{
+	color: #999999;
+}
+.theme1
+{
+	padding-left: 22px;
+	font-size: 30px;
+	
+}
+.theme-left1
+{
+	position: relative;
+	float: left;
+	width:300px;
+	height:198px;
+	font-size: 8px;
+	color: #999999;
+}
+.theme-left a:link {color:gray} 
+.theme-bottom a:link{color: gray;font-size: 12px;}
+.theme1 a:link{color: #000000;letter-spacing: 2px;font-size: 21px;}
+.theme-right
+{
+	margin-top: 36px;
+	margin-right:9rem;
+	position: relative;
+	float: right;
+	width:750px;
+	height: 508px;
+	background: #000000;
+	
+}
+.theme-right a:link {font-size:19px;
+	letter-spacing:3px;color:white} 
+.theme-right .theme-right1
+{
+	position: relative;
+	float: right;
+	width: 750px;
+	height: 508px;
+}
+.theme-right .theme-right2
+{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:750px;
+	height:30px;
+	background:#999999;
+	opacity: 0.7;
+}
+.theme-bottom
+{
+	padding-top: 20px;
+	padding-left: 9rem;
+	height: 300px;
+}
+.theme-bottom p
+{
+	color: #999999;
+}
+.theme-bottom-style
+{
+	position: relative;
+	float: left;
+	width:255px;
+	height:160px;
+	font-size: 8px;
+	color: #999999;
+}
+.theme-bottom1
+{
+	position: relative;
+	width: 255px;
+	height: 160px;
+	display: inline-block;
+
+}
+.theme-bottom2
+{ 
+	position: relative;
+	width: 255px;
+	height: 160px;
+	margin-left: 17px;
+	display: inline-block;
+}
+.fenxiang
+{
+	font-size: 8px;
+	color: #999999;
+	text-align: center;
+}
+
+/*当季旅游攻略*/
+.sec1{
+    width: inherit;
+    height: 700px;
+    padding: 10px 0 5px 0;
+    /*上右下左*/
+    margin: 10px 10px 5px 5px;
+}
+.sec1 #sec11{
+    text-align: left;
+    padding: 0px 0 0px 0;
+}
+.sec1 #sec11 span{
+    margin: 10px 0 10px 0;
+    font-size: 23px;
+    color: #666666;
+}
+
+.sec1 #tu1{
+    display: inline-block;
+    vertical-align: bottom;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    margin: 10px 0 10px 0px;
+    position: relative;
+}
+.sec1 #tu1 img{
+	width: 700px;
+    height: 600px;
+    vertical-align: middle;
+}
+.sec1 #tu1 span{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 800px;
+    height: 40px;
+	background: rgba(0, 0, 0, 0.5);
+	
+	font-size: 30px;
+	color: azure;
+}
+.sec1 #tu1 a{
+	display: block;
+    color: azure;
+}
+.sec1 .tu2{
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    border-radius: 6px;
+    margin: 10px 0 10px 7px;
+    position: relative;
+    width: 450px;
+    height: 600px;
+    /*background: rgba(0, 0, 255, 0.5);*/
+}
+.sec1 .tu2 .tu21{
+	display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    border-radius: 6px;
+    margin: 0 0 10px 13px;
+    position: relative;
+    width: 450px;
+    height: 290px;
+    /*background: rgba(0, 0, 0, 0.5);*/
+}
+.sec1 .tu2 .tu21 img{
+	width: 480px;
+    height: 290px;
+    vertical-align: middle;
+}
+.sec1 .tu2 .tu21 span{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 480px;
+    height: 30px;
+	background: rgba(0, 0, 0, 0.5);
+	
+	font-size: 20px;
+	color: azure;
+}
+.sec1 .tu2 .tu21 a{
+	display: block;
+    color: azure;
+}
+.sec1 .tu2 .tu22{
+	display: inline-block;
+    vertical-align: bottom;
+    border: 0px solid #DDDDDD;
+    border-radius: 6px;
+    margin: 10px 0 0 13px;
+    position: relative;
+    width: 450px;
+    height: 290px;
+    /*background: rgba(0, 0, 0, 0.5);*/
+}
+.sec1 .tu2 .tu22 img{
+	width: 480px;
+    height: 290px;
+    vertical-align: middle;
+}
+.sec1 .tu2 .tu22 span{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 480px;
+    height: 30px;
+	background: rgba(0, 0, 0, 0.5);
+	
+	font-size: 20px;
+	color: azure;
+}
+.sec1 .tu2 .tu22 a{
+	display: block;
+    color: azure;
+}
+
+/*热门旅游攻略*/
+.sec2{
+    width: inherit;
+    height: 450px;
+    /*padding: 10px 10px 5px 10px;*/
+    /*上右下左*/
+    margin: 10px 0px 5px 0px;
+    /*background: rgba(0, 0, 255, 0.5);*/
+}
+.sec2 .sec21{
+    text-align: left;
+    padding: 0px 0 0px 0;
+}
+.sec2 .sec21 span{
+    margin: 10px 0 10px 0;
+    font-size: 23px;
+    color: #666666;
+}
+.sec2 .tu3{
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    border-radius: 6px;
+    margin: 10px 0 0 0;
+    position: relative;
+    width: 275px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.sec2 .tu3 img{
+	width: 275px;
+    height: 350px;
+    vertical-align: middle;
+}
+.sec2 .tu3 span{
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	
+	font-size: 30px;
+	color: azure;
+}
+.sec2 .tu3 a{
+	display: block;
+    color: azure;
+}
+.sec2 .tu4{
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    border-radius: 6px;
+    margin: 10px 0 0 25px;
+    position: relative;
+    width: 275px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.sec2 .tu4 img{
+	width: 275px;
+    height: 350px;
+    vertical-align: middle;
+}
+.sec2 .tu4 span{
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	
+	font-size: 30px;
+	color: azure;
+}
+.sec2 .tu4 a{
+	display: block;
+    color: azure;
+}
+.sec2 .tu5{
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    border-radius: 6px;
+    margin: 10px 0 0 25px;
+    position: relative;
+    width: 275px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.sec2 .tu5 img{
+	width: 275px;
+    height: 350px;
+    vertical-align: middle;
+}
+.sec2 .tu5 span{
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	
+	font-size: 30px;
+	color: azure;
+}
+.sec2 .tu5 a{
+	display: block;
+    color: azure;
+}
+.sec2 .tu6{
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    border-radius: 6px;
+    margin: 10px 0 0 25px;
+    position: relative;
+    width: 275px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.sec2 .tu6 img{
+	width: 275px;
+    height: 350px;
+    vertical-align: middle;
+}
+.sec2 .tu6 span{
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	
+	font-size: 30px;
+	color: azure;
+}
+.sec2 .tu6 a{
+	display: block;
+    color: azure;
+}
+
+.theme-left{
+	position: relative;
+	left: -100px;
+}
+
+.theme-right{
+	width: 700px;
+}
+
+.theme-right1{
+	position:relative;
+	left:50px;
+}
+
+.theme-bottom{
+	position: relative;
+	left: -125px;
+}
+
+.theme-bottom{
+	position:relative;
+	top:30px;
+}
+
+.theme-bottom-style{	
+	width: 270px;
+	height: 200px;
+	position: relative;
+	left:20px;
+}

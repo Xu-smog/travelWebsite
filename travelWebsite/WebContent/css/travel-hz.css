@@ -1,0 +1,259 @@
+#main-div{
+	margin: 0 auto;
+	font-family: 微软雅黑;
+	width: 1200px;
+	overflow:hidden;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:link, a:visited, a:active, a:hover{
+	color: black;
+}
+
+/*段一*/
+.qd1{
+    width: 1200px;
+    height: 450px;
+    /*padding: 10px 10px 5px 10px;*/
+    /*上右下左*/
+    margin: 30px auto;
+    vertical-align: middle;
+    /*background: rgba(0, 0, 255, 0.5);*/
+    
+    border-bottom: 3px solid gainsboro;
+}
+
+/*五月的风*/
+.qd1 .qd11{
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    margin: 0 0 0 0;
+    position: relative;
+    width: 585px;
+    height: 410px;
+    /*background: rgba(0, 0, 255, 0.5);*/
+}
+.qd1 .qd11 img{
+	width: 585px;
+    height: 410px;
+    vertical-align: middle;
+}
+.qd1 .qd12{
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    margin: 0 0 0 25px;
+    position: relative;
+    width: 585px;
+    height: 410px;
+    /*background: rgba(0, 0, 255, 0.5);*/
+}
+.qd1 .qd12 .qd121{
+	display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    margin: 0 0 0 0;
+    position: relative;
+    width: 585px;
+    height: 290px;
+    /*background: rgba(0, 0, 0, 0.5);*/
+    
+    border-bottom: 3px solid gainsboro;
+}
+/*五星好评*/
+.qd1 .qd12 .qd121 img{
+	position: absolute;
+	top: 27px;
+	left: 90px;
+	
+	width: 125px;
+    height: 23px;
+}
+.qd1 .qd12 .qd121 p{
+	position: relative;
+	top: 10px;
+	left: 5px;
+	
+	font-size: 24px;
+	color: black;
+}
+/*喜欢，足迹*/
+.qd1 .qd12 .qd122{
+	display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    margin: 0 0 0 0;
+    position: relative;
+    width: 585px;
+    height: 120px;
+    /*background: rgba(0, 0, 0, 0.5);*/
+}
+
+/*段二*/
+.qd2{
+    width: 1200px;
+    height: 1300px;
+    /*padding: 10px 10px 5px 10px;*/
+    /*上右下左*/
+    margin: 30px auto;
+    vertical-align: middle;
+    /*background: rgba(0, 0, 255, 0.5);*/
+}
+/*栈桥*/
+.qd2 .qd21{
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    margin: 0 0 0 0;
+    position: relative;
+    width: 585px;
+    height: 410px;
+    /*background: rgba(0, 0, 255, 0.5);*/
+}
+.qd2 .qd21 p{
+	position: relative;
+	top: 30px;
+	left: 10px;
+	right: 10px;
+	
+	font-size: 21px;
+	color: darkslategray;
+}
+.qd2 .qd22{
+	display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    left: 11px;
+    position: relative;
+    width: 600px;
+    height: 410px;
+    /*background: rgba(0, 255, 0, 0.5);*/
+}
+.qd2 .qd22 img{
+	width: 600px;
+	height: 410px;
+}
+
+/*八大关*/
+.qd2 .qd23{
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    margin: 0 0 0 0;
+    position: relative;
+    width: 600px;
+    height: 410px;
+    /*background: rgba(0, 255, 0, 0.5);*/
+}
+.qd2 .qd23 img{
+	width: 600px;
+	height: 410px;
+}
+.qd2 .qd24{
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    left: 20px;
+    position: relative;
+    width: 577px;
+    height: 410px;
+    /*background: rgba(0, 0, 255, 0.5);*/
+}
+.qd2 .qd24 p{
+	position: relative;
+	top: 30px;
+	/*left: 10px;*/
+	right: 10px;
+	
+	font-size: 21px;
+	color: darkslategray;
+}
+
+/*奥帆中心*/
+.qd2 .qd25{
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    margin: 0 0 0 0;
+    position: relative;
+    width: 585px;
+    height: 410px;
+    /*background: rgba(0, 0, 255, 0.5);*/
+}
+.qd2 .qd25 p{
+	position: relative;
+	top: 30px;
+	left: 10px;
+	
+	font-size: 21px;
+	color: darkslategray;
+}
+.qd2 .qd26{
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    left: 11px;
+    position: relative;
+    width: 600px;
+    height: 410px;
+    /*background: rgba(0, 255, 0, 0.5);*/
+}
+.qd2 .qd26 img{
+	width: 600px;
+	height: 410px;
+}
+
+/*崂山*/
+.qd2 .qd27{
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    margin: 0 0 0 0;
+    position: relative;
+    width: 600px;
+    height: 450px;
+    /*background: rgba(0, 255, 0, 0.5);*/
+}
+.qd2 .qd27 img{
+	width: 600px;
+	height: 410px;
+}
+.qd2 .qd28{
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #DDDDDD;
+    left: 11px;
+    position: relative;
+    width: 585px;
+    height: 410px;
+    /*background: rgba(0, 0, 255, 0.5);*/
+}
+.qd2 .qd28 p{
+	position: relative;
+	top: 30px;
+	left: 0px;
+	
+	font-size: 21px;
+	color: darkslategray;
+}
+.qd3{
+    width: 1200px;
+    height: 400px;
+    /*padding: 10px 10px 5px 10px;*/
+    /*上右下左*/
+    margin: 0 auto;
+    vertical-align: middle;
+    /*background: rgba(0, 0, 255, 0.5);*/
+    
+    border-top: 3px solid gainsboro;
+}
+.qd3 img{
+	width: 300px;
+	height: 280px;
+	margin-top: 30px;
+	margin-left: 70px;
+}

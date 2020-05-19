@@ -1,0 +1,47 @@
+CREATE TABLE t_user(
+	user_id VARCHAR2(30) primary key,
+	name VARCHAR2(30),
+	email VARCHAR2(50),
+	password VARCHAR2(30)
+	)
+
+CREATE TABLE DongTai (
+	USER_ID VARCHAR2(30),
+	USER_COMMENT VARCHAR2(300),
+	ZAN VARCHAR2(20),
+	DONGTAI_ID VARCHAR2(200) primary key,
+	time VARCHAR2(30),
+	photo0 VARCHAR2(200),
+	photo1 VARCHAR2(200),
+	photo2 VARCHAR2(200),
+	photo3 VARCHAR2(200),
+	photo4 VARCHAR2(200),
+	photo5 VARCHAR2(200),
+	photo6 VARCHAR2(200),
+	photo7 VARCHAR2(200),
+	photo8 VARCHAR2(200)
+	)
+
+CREATE TABLE t_article(
+	user_id VARCHAR2(30),
+	article_id VARCHAR2(30) primary key,
+	title VARCHAR2(50),
+	content_url VARCHAR2(200),
+	article_time VARCHAR2(20)
+	)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
